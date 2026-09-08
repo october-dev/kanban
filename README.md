@@ -1,23 +1,13 @@
-![github-background](https://github.com/user-attachments/assets/f728f52e-bf67-4357-9ba2-c24c437488e3)
-
 <div align="center">
-  <h3 align="center">Kan</h3>
-  <p>The open-source project management alternative to Trello.</p>
+  <h3 align="center">Kanban</h3>
+  <p>An open-source project management alternative to Trello.</p>
 </div>
 
-<p align="center">
-  <a href="https://kan.bn/kan/roadmap">Roadmap</a>
-  ·
-  <a href="https://kan.bn">Website</a>
-  ·
-  <a href="https://docs.kan.bn">Docs</a>
-  ·
-  <a href="https://discord.gg/e6ejRb6CmT">Discord</a>
-</p>
-
 <div align="center">
-  <a href="https://github.com/kanbn/kan/blob/main/LICENSE"><img alt="License" src="https://img.shields.io/badge/license-AGPLv3-purple"></a>
+  <a href="LICENSE"><img alt="License" src="https://img.shields.io/badge/license-AGPLv3-purple"></a>
 </div>
+
+> **Attribution:** Kanban is a fork of [Kan](https://github.com/kanbn/kan), created and maintained by the kan.bn team and its contributors. It is distributed under the same [AGPLv3](LICENSE) license. See [NOTICE](NOTICE) for details.
 
 ## Features 💫
 
@@ -30,7 +20,7 @@
 - 🎨 **Templates** : Save time with reusable custom board templates
 - ⚡️ **Integrations (coming soon)** : Connect your favourite tools
 
-See our [roadmap](https://kan.bn/kan/roadmap) for upcoming features.
+See the upstream [Kan roadmap](https://kan.bn/kan/roadmap) for the direction of the original project.
 
 ## Screenshot 👁️
 
@@ -47,17 +37,11 @@ See our [roadmap](https://kan.bn/kan/roadmap) for upcoming features.
 
 ## Self Hosting 🐳
 
-### One-click Deployments
-
-The easiest way to deploy Kan is through Railway. We've partnered with Railway to maintain an official template that supports the development of the project.
-
-<a href="https://railway.com/deploy/kan?referralCode=bZPsr2&utm_medium=integration&utm_source=template&utm_campaign=generic">
-  <img src="https://railway.app/button.svg" alt="Deploy on Railway" height="40" />
-</a>
-
 ### Docker Compose
 
-Alternatively, you can self-host Kan with Docker Compose. This will set up everything for you including your postgres database and automatically run migrations.
+You can self-host Kanban with Docker Compose. This will set up everything for you including your postgres database and automatically run migrations.
+
+> **Note:** The Docker images referenced below (`ghcr.io/kanbn/*`) are the upstream Kan images. Replace them with your own builds once you start shipping fork-specific changes.
 
 1. Create a `.env` file with your environment variables (see [Environment Variables](#environment-variables-) section below)
 
@@ -146,7 +130,7 @@ For the complete Docker Compose configuration with all optional features, see [d
 1. Clone the repository (or fork)
 
 ```bash
-git clone https://github.com/kanbn/kan.git
+git clone https://github.com/october-dev/kanban.git
 ```
 
 2. Install dependencies
@@ -348,22 +332,18 @@ The MCP server exposes 46 tools across 7 resource types:
 
 We welcome contributions! Please read our [contribution guidelines](CONTRIBUTING.md) before submitting a pull request.
 
-## Contributors 👥
+## Original Contributors 👥
+
+This project builds on the work of the [Kan](https://github.com/kanbn/kan) contributors:
 
 <a href="https://github.com/kanbn/kan/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=kanbn/kan" />
 </a>
 
-## Sponsors ❤️
-
-[<img height="100" alt="image" src="https://github.com/user-attachments/assets/e331c71f-ac86-46a6-bceb-ce276de094b0" />](https://www.testmuai.com)
-
-Proudly sponsored by [TestMu AI (formerly LambdaTest)](https://www.testmuai.com) - an AI-native testing cloud platform built for modern engineering teams. Covering everything from autonomous test creation and fast execution to testing AI agents like chatbots and voice assistants. If you're serious about testing, go check them out.
-
 ## License 📝
 
-Kan is licensed under the [AGPLv3 license](LICENSE).
+Kanban is a fork of [Kan](https://github.com/kanbn/kan) and, like the original, is licensed under the [AGPLv3 license](LICENSE). See [NOTICE](NOTICE) for attribution details.
 
 ## Contact 📧
 
-For support or to get in touch, please email [henry@kan.bn](mailto:henry@kan.bn) or join our [Discord server](https://discord.gg/e6ejRb6CmT).
+For issues with this fork, please open a [GitHub issue](https://github.com/october-dev/kanban/issues). For questions about the upstream project, see [Kan](https://github.com/kanbn/kan).

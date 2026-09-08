@@ -1,0 +1,18 @@
+Kanban
+======
+
+This project is a fork of "Kan" (https://github.com/kanbn/kan), an open-source
+project management tool created and maintained by the kan.bn team and its
+contributors.
+
+Original work:
+  Copyright (c) the kanbn/kan contributors
+  Licensed under the GNU Affero General Public License v3.0 (AGPL-3.0).
+
+This fork is distributed under the same AGPL-3.0 license. See the LICENSE file
+for the full license text. All original copyright and license notices have been
+preserved.
+
+Modifications in this fork:
+  Copyright (c) 2026 october-dev
+  Also licensed under AGPL-3.0.
